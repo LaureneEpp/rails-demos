@@ -1,24 +1,10 @@
-# README
+**Manage My Payroll Dashboard**
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This small projectt is designed to streamline payroll management processes for businesses. It aims to simplify tasks related to managing departments, teams, and employees' payroll information.
 
-Things you may want to cover:
+Key features
+**Department Management:** Easily create, update, and delete departments within your organization.
+**Team Management**: Organize employees into teams for efficient collaboration and management.
+**Employee Management**: Add, edit, and remove employee profiles, including their personal and payroll information.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Working in progress: Visualize key payroll metrics, Payroll Processin (generate payslips)
