@@ -125,7 +125,6 @@ ActiveRecord::Schema[7.0].define(version: 2023_05_16_135212) do
     t.datetime "updated_at", null: false
     t.string "subtitle"
     t.string "state", default: "draft"
-    t.string "publisher"
     t.datetime "published_at"
     t.bigint "category_id"
     t.text "content"
