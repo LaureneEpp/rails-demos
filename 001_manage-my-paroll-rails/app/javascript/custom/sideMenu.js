@@ -6,7 +6,6 @@ const main_container = document.querySelector(".main-container");
 const menu_icon = document.querySelector('.menu-icon');
 const sideMenu = document.querySelector('.sidebar');
 const subMenu = document.querySelector("#submenu");
-// var w = document.documentElement.clientWidth || window.innerWidth;
 
 
 // Function to open SidebarMenu
@@ -42,10 +41,6 @@ function toggleFixedMenu() {
     main_container.style.marginLeft = '';
   }
 }
-
-// Make menu Icon appears
-// window.addEventListener('mousemove', hideShowMenuIcon)
-
 // Open menu when click on menu icon
 menu_icon.addEventListener('click', () => {
   sideMenu.classList.contains('translate-x-[-100%]')? openSidebarMenu(): closeSidebarMenu();
