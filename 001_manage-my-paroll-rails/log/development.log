@@ -19141,3 +19141,41 @@ Completed 200 OK in 64ms (Views: 54.4ms | ActiveRecord: 6.2ms | Allocations: 178
   
 ActionController::RoutingError (No route matches [GET] "/stimulus-loading.js"):
   
+Started GET "/payslips" for ::1 at 2024-04-11 18:29:42 +0200
+Processing by PayslipsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering payslips/index.html.erb within layouts/application
+  [1m[36mPayslip Load (0.7ms)[0m  [1m[34mSELECT "payslips".* FROM "payslips"[0m
+  ↳ app/views/payslips/index.html.erb:8
+  Rendered payslips/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 622)
+  Rendered search/_form.html.erb (Duration: 1.4ms | Allocations: 605)
+  [1m[36mTeam Load (0.9ms)[0m  [1m[34mSELECT "teams".* FROM "teams" ORDER BY name ASC[0m
+  ↳ app/views/layouts/_navigation.html.erb:59
+  [1m[36mDepartement Load (0.4ms)[0m  [1m[34mSELECT "departements".* FROM "departements" WHERE "departements"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navigation.html.erb:61
+  [1m[36mDepartement Load (0.4ms)[0m  [1m[34mSELECT "departements".* FROM "departements" WHERE "departements"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navigation.html.erb:61
+  [1m[36mCACHE Departement Load (0.0ms)[0m  [1m[34mSELECT "departements".* FROM "departements" WHERE "departements"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navigation.html.erb:61
+  [1m[36mCACHE Departement Load (0.0ms)[0m  [1m[34mSELECT "departements".* FROM "departements" WHERE "departements"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navigation.html.erb:61
+  [1m[36mDepartement Load (0.2ms)[0m  [1m[34mSELECT "departements".* FROM "departements" WHERE "departements"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navigation.html.erb:61
+  [1m[36mDepartement Load (0.3ms)[0m  [1m[34mSELECT "departements".* FROM "departements" WHERE "departements"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navigation.html.erb:61
+  [1m[36mCACHE Departement Load (0.0ms)[0m  [1m[34mSELECT "departements".* FROM "departements" WHERE "departements"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navigation.html.erb:61
+  [1m[36mCACHE Departement Load (0.0ms)[0m  [1m[34mSELECT "departements".* FROM "departements" WHERE "departements"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navigation.html.erb:61
+  [1m[36mCACHE Departement Load (0.0ms)[0m  [1m[34mSELECT "departements".* FROM "departements" WHERE "departements"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navigation.html.erb:61
+  [1m[36mDepartement Load (0.3ms)[0m  [1m[34mSELECT "departements".* FROM "departements" WHERE "departements"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/views/layouts/_navigation.html.erb:61
+  Rendered layouts/_navigation.html.erb (Duration: 22.2ms | Allocations: 8566)
+  Rendered layout layouts/application.html.erb (Duration: 211.6ms | Allocations: 53015)
+Completed 200 OK in 274ms (Views: 208.6ms | ActiveRecord: 54.7ms | Allocations: 56021)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/stimulus-loading.js"):
+  
