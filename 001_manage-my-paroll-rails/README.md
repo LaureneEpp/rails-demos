@@ -8,3 +8,7 @@ Key features
 **Employee Management**: Add, edit, and remove employee profiles, including their personal and payroll information.
 
 Working in progress: Visualize key payroll metrics, Payroll Processin (generate payslips)
+
+
+https://github.com/LaureneEpp/rails-demos/assets/70053268/12757b99-ae4a-4ff1-af7a-ecb4df1384d6
+
